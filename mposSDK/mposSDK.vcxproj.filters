@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="iso8583">
+      <UniqueIdentifier>{752dc0d9-bc65-4537-be3e-a55db20871d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cJSON">
+      <UniqueIdentifier>{958e90f5-b202-4248-8e51-7c2dfcb764bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="INTERFACE">
+      <UniqueIdentifier>{510a7000-2a61-4fcc-9dcb-117cb8aeb576}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ipaynowMPOSSDK">
+      <UniqueIdentifier>{eebec9d7-a34c-4821-9a71-18c6c355bc74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="log">
+      <UniqueIdentifier>{dc030dbf-e2da-4799-bc20-5b418f1c239b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="iso8583.c">
+      <Filter>iso8583</Filter>
+    </ClCompile>
+    <ClCompile Include="cJSON.c">
+      <Filter>cJSON</Filter>
+    </ClCompile>
+    <ClCompile Include="innerInterface.c">
+      <Filter>INTERFACE</Filter>
+    </ClCompile>
+    <ClCompile Include="log.c">
+      <Filter>log</Filter>
+    </ClCompile>
+    <ClCompile Include="ipaynowMPOSSDK.c">
+      <Filter>ipaynowMPOSSDK</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="iso8583.h">
+      <Filter>iso8583</Filter>
+    </ClInclude>
+    <ClInclude Include="cJSON.h">
+      <Filter>cJSON</Filter>
+    </ClInclude>
+    <ClInclude Include="innerInterface.h">
+      <Filter>INTERFACE</Filter>
+    </ClInclude>
+    <ClInclude Include="log.h">
+      <Filter>log</Filter>
+    </ClInclude>
+    <ClInclude Include="ipaynowMPOSSDK.h">
+      <Filter>ipaynowMPOSSDK</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

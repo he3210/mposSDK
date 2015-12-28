@@ -1,0 +1,20 @@
+{
+    "msg_type":"082",
+    "tid":"00001160",
+    "mid":"123456789012345",
+    "batch_no":"000013",
+    "systrace":"001234"
+}
+
+har *unionpay_cfg = "union_pay.json";
+char *signup_cfg = "signup.json";
+char *signoff_cfg = "signoff.json";
+char *settle_cfg = "settle.json";
+char *icparaquery_cfg = "icparaquery.json";
+char *icparadown_cfg = "icparadown.json";
+char *icparadownend_cfg = "icparadownend.json";
+char *keyquery_cfg = "keyquery.json";
+char *keydown_cfg = "keydown.json";
+char *keydownend_cfg = "keydownend.json";
+char *icscriptup_cfg = "icscriptup.json";
+char *settlenotify_cfg = "settlenotify.json";
